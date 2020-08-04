@@ -1,7 +1,7 @@
 # Data Preprocessing Template
 
 # Importing the dataset
-dataset = read.csv('Data.csv')
+dataset = read.csv('Part 1 - Data Preprocessing/Section 2 -------------------- Part 1 - Data Preprocessing --------------------/R/Data.csv')
 
 # Taking care of missing data
 dataset$Age = ifelse(is.na(dataset$Age),
